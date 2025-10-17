@@ -1,0 +1,65 @@
+## HNG CHALLENGE STAGE 0
+A basic server that returns my public information and random cat facts in JSON format.
+
+## TECH STACK
+- Node.js
+- Express
+- Axios
+- Typescript
+- Nodemon
+
+## PROJECT STRUCTURE
+src/
+├── config/
+    └── env-config.ts
+├── api/
+    └── me-route.ts 
+├── middlewares/
+    └── error-handler.ts
+└── server.ts
+
+## GETTING STARTED
+
+** Clone The Repository **
+
+```bash
+
+git clone https://github.com/AdekunleMustapha/hng-stage-0-challenge.git
+
+cd hng-stage-0-challenge
+
+```
+
+** Install Dependencies**
+
+```bash
+
+npm install
+
+```
+** Create a .env file in the root directory and add the following environment variables:**
+
+```env
+
+PORT=3000
+CAT_API_URL=https://catfact.ninja
+MAX_LENGTH=1000
+
+```
+
+** Start The Server **
+
+* For Development*
+
+```bash
+
+npm run start:dev:server 
+
+```
+* For Production*
+
+```bash
+
+npm run start:prod:server //for production
+
+```
