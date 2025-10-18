@@ -30,14 +30,14 @@ cd hng-stage-0-challenge
 
 ```
 
-** Install Dependencies**
+**Install Dependencies**
 
 ```bash
 
 npm install
 
 ```
-** Create a .env file in the root directory and add the following environment variables:**
+**Create a .env file in the root directory and add the following environment variables**
 
 ```env
 
@@ -47,16 +47,16 @@ MAX_LENGTH=1000
 
 ```
 
-** Start The Server **
+**Start The Server**
 
-* For Development*
+*For Development*
 
 ```bash
 
 npm run start:dev:server 
 
 ```
-* For Production*
+*For Production*
 
 ```bash
 
